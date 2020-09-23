@@ -4,11 +4,11 @@ def converter(minutes):
     print("Converted minute value to seconds:", min)
 
 
-sec = 5
-converter(sec)
+minutes = 5
+converter(minutes)
 
-sec = 3
-converter(sec)
+minutes = 3
+converter(minutes)
 
-sec = 2
-converter(sec)
+minutes = 2
+converter(minutes)
