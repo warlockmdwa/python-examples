@@ -1,0 +1,22 @@
+def fb():
+    while True:
+        fizzerBuzzer = input("Enter the FizzBuzz value: ")
+        
+        try:
+            for f in range(int(fizzerBuzzer)):
+            
+                if (f % 3 == 0):
+                    print("FİZZ")
+                    continue
+                    
+                elif (f % 5 == 0):
+                    print("BUZZ")
+                    continue
+                print(f)
+            break
+
+        except ValueError:
+            print("Please enter a number")
+
+fb()
+print('----Thats it----')
